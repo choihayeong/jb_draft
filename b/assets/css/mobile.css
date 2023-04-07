@@ -15,7 +15,7 @@ body {font-family:'Pretendard';font-size:0}
 .clearfix::after {content:'';display:block;clear:both}
 /* common */
 .mo {background:#f1f1f1}
-.mobile {position:absolute;top:50%;left:50%;width:436px;height:878px;transform:translate(-50%, -50%);background:url(../imgs/m/mockup.png) no-repeat center top;background-size:contain}
+.mobile {position:absolute;top:50%;left:50%;width:436px;height:878px;transform:translate(-50%, -50%);background:url(../images/mo/mockup.png) no-repeat center top;background-size:contain}
 .mo-content {overflow-y:scroll;overflow-x:hidden;position:absolute;top:107px;left:31px;width:375px;height:666px;background:#fff}
 .mobox {position:relative;font-size:16px;text-align:center;transition:background-color 0.4s ease}
 [data-bg="default"].mobox {color:#000;background-color:#fff}
@@ -26,16 +26,16 @@ body {font-family:'Pretendard';font-size:0}
 [data-bg="default"] .header.on, .header:hover {background-color:#fff}
 .header__inner {position:relative;display:flex;align-items:center;justify-content:space-between;height:100%;padding:0 20px;box-sizing:border-box}
 .header:hover {color:#000}
-.header:hover .logo > a {background:url(../imgs/m/logo.png) no-repeat}
+.header:hover .logo > a {background:url(../images/mo/logo.png) no-repeat}
 [data-bg="blue"] .header.on {box-shadow:none}
-.logo > a {display:block;width:140px;height:21px;background:url(../imgs/m/logo.png) no-repeat}
+.logo > a {display:block;width:140px;height:21px;background:url(../images/mo/logo.png) no-repeat}
 .snb > * {display:inline-block;vertical-align:middle}
 .snb__lang {font-size:12px}
 .btn-gnb__line {display:block;width:22px;margin-left:30px;border:1px solid #021D49;border-radius:50px}
 .btn-gnb__line ~ .btn-gnb__line {margin-top:6px}
 [data-bg="blue"] .btn-gnb__line {border-color:#fff}
-[data-bg="blue"] .logo > a {background-image:url(../imgs/m/logo_white.png)}
-.header:hover .logo > a {background-image:url(../imgs/m/logo.png)}
+[data-bg="blue"] .logo > a {background-image:url(../images/mo/logo_white.png)}
+.header:hover .logo > a {background-image:url(../images/mo/logo.png)}
 .header:hover .btn-gnb__line {border-color:#021D49}
 /* footer */
 .footer {position:relative}
@@ -49,9 +49,9 @@ body {font-family:'Pretendard';font-size:0}
 .textpart__mask {position:absolute;top:0;right:0;display:block;width:100%;height:100%;opacity:0.65;background-color:#fff;transition:width 0.8s ease, opacity 0.8s ease}
 [data-bg="blue"] .textpart__mask {background-color:#0082C9}
 .textpart > img {vertical-align:middle}
-.main-intro {position:relative;width:100%;height:666px;background:url(../imgs/m/img01.jpg);background-position:center 0;animation:animparticle 30s linear infinite}
+.main-intro {position:relative;width:100%;height:666px;background:url(../images/mo/img01.jpg);background-position:center 0;animation:animparticle 30s linear infinite}
 .main-intro__inner {position:relative;padding:190px 0 0;text-align:center;z-index:5}
-.main-intro__scroll {margin:110px auto 0;width:80px;height:80px;background:url(../imgs/m/scrolldown.png) no-repeat center}
+.main-intro__scroll {margin:110px auto 0;width:80px;height:80px;background:url(../images/mo/scrolldown.png) no-repeat center}
 .main-intro__scroll > img {animation:rotate_image 10s linear infinite;transform-origin:50% 50%}
 @keyframes animparticle { from { background-position:center 0; } to { background-position:center -812px; } }
 @keyframes rotate_image{ 100% { transform: rotate(360deg); } }
